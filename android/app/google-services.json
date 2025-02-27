@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "970700569187",
+    "project_id": "smartitura",
+    "storage_bucket": "smartitura.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970700569187:android:e8a9a9246fe33a86651656",
+        "android_client_info": {
+          "package_name": "com.misael2code.smartitura"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuFxo-msFHvlYIOjXzC0V1fI3v-u2NTkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

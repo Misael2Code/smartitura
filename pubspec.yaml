@@ -1,0 +1,86 @@
+name: Smartitura
+description: "Na palma da mão."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  curved_navigation_bar: ^1.0.6
+  shared_preferences: ^2.3.4
+  flutter_pdfview: ^1.4.0
+  share_plus: ^10.1.3
+  image_picker: ^1.1.2
+  connectivity_plus: ^6.1.1
+  intl: ^0.18.0
+  file_picker: ^8.1.7
+
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/official.png
+    - images/logo.png
+    - images/icons/acordeom.png
+    - images/icons/bateria.png
+    - images/icons/bombardino.png 
+    - images/icons/contrabaixo_acustico.png
+    - images/icons/contrabaixo_eletrico.png
+    - images/icons/contrafagote.png
+    - images/icons/corne_ingles.png
+    - images/icons/flauta_transversal.png
+    - images/icons/fagote.png
+    - images/icons/oboe.png
+    - images/icons/piano.png
+    - images/icons/sax_alto.png
+    - images/icons/sax_soprano.png
+    - images/icons/sax_tenor.png
+    - images/icons/trombone.png
+    - images/icons/trompa.png
+    - images/icons/trompete.png
+    - images/icons/tuba.png
+    - images/icons/cordas_erudita.png
+    - images/icons/violao.png
+    - images/icons/voz.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
